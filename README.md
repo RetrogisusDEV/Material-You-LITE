@@ -1,6 +1,8 @@
 # Material You Lite
 __Plis Help to Translate to english__
 
+__Importante: los archivos estan siendo agregados__
+
 Material You Lite es una plantilla `OpenSource` para introducir rapida y comodamente Material Desing 3 en cualquier app.
 
 En android Studio o en Reverse(Smali/Java).
