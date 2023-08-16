@@ -1,1 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	android:gravity="fill_vertical">
+
+	<TextView
+		android:text="Material You LITE 0.1"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		style="@style/TextViewCompat"
+		android:textIsSelectable="true"
+		android:typeface="monospace"
+		android:textStyle="bold"
+		android:textSize="25dip"
+		android:gravity="center"
+		android:background="@drawable/rgd_bg_rounded"/>
+
+	<LinearLayout
+		android:orientation="vertical"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		style="@style/backgroundItemCompat"
+		android:layout_marginBottom="10dip"
+		android:layout_marginTop="10dip"
+		android:gravity="center_horizontal">
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="You Can Find The Source Code Here \n https://www.github.com/RetrogisusDEV/"
+			style="@style/TextViewCompat"
+			android:layout_marginTop="0dip"
+			android:layout_marginBottom="0dip"
+			android:gravity="center_horizontal"/>
+
+		<LinearLayout
+			android:orientation="horizontal"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			style="@style/AppMarginCompat"
+			android:layout_marginBottom="0dip"
+			android:layout_marginTop="0dip"
+			android:gravity="center_vertical">
+
+			<Button
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="Button"
+				style="@style/ButtonCompat"
+				android:onClick="theme()"/>
+
+			<ImageButton
+				android:src="@android:drawable/ic_menu_close_clear_cancel"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				style="@style/ButtonCompat"/>
+
+		</LinearLayout>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:orientation="vertical"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content">
+
+		<TextView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="Widget Desing"
+			style="@style/TextViewCompat"
+			android:gravity="left|center_vertical"
+			android:textSize="40dip"
+			android:background="@drawable/rgd_bg_rounded"/>
+
+		<EditText
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:ems="10"
+			style="@style/EditTextCompat"
+			android:background="@drawable/rgd_bg_search"
+			android:gravity="center_vertical"/>
+
+		<LinearLayout
+			android:orientation="vertical"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			style="@style/backgroundItemCompat">
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="Change Theme Color (In Working) \n[0:Yellow / 1:Red / 2:Green / 3:Blue]"
+				android:layout_marginTop="0dip"
+				android:layout_marginBottom="0dip"/>
+
+			<SeekBar
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				style="@style/SeekBarCompat"
+				android:minWidth="50dp"
+				android:max="3"
+				android:progress="1"/>
+
+		</LinearLayout>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		style="@style/backgroundItemCompat">
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="Change Theme (Day/Night)"
+			style="@style/TextViewCompat"/>
+
+		<CheckBox
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			style="@style/backgroundItemCompat"
+			android:id="@+id/themes"/>
+
+	</LinearLayout>
+
+</LinearLayout>
 
