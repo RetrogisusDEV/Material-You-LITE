@@ -3,6 +3,8 @@ __Plis Help to Translate to english__
 
 __Importante: los archivos estan siendo agregados__
 
+__need help to build: <a href="https://github.com/RetrogisusDEV/Material-You-LITE/commit/4fce920c24819b629ee893cd78e3041da8cb4122/checks?check_suite_id=15166616835">Android CI</a>__
+
 Material You Lite es una plantilla `OpenSource` para introducir rapida y comodamente Material Desing 3 en cualquier app.
 
 En android Studio o en Reverse(Smali/Java).
