@@ -4,7 +4,6 @@ import android.app.*;
 import android.content.*;
 import android.os.*;
 import android.widget.*;
-import android.support.v4.*;
 import android.graphics.drawable.*;
 import android.graphics.*;
 import android.content.res.*;
