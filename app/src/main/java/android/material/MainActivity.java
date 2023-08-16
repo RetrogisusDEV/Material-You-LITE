@@ -8,7 +8,7 @@ import android.graphics.drawable.*;
 import android.graphics.*;
 import android.content.res.*;
 import android.text.style.*;
-import android.*;
+
 
 
 public class MainActivity extends Activity
