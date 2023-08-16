@@ -1,1 +1,40 @@
-
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<style name="AppCompatLight" parent="@android:style/Theme.Material.Light">
+		<item name="android:colorPrimary">@color/colorPrimary</item>
+		<item name="android:colorPrimaryDark">@color/colorPrimaryDark</item>
+		<item name="android:colorAccent">@color/colorAccent</item>
+		<item name="android:colorBackground">@color/white</item>
+		<item name="android:textColor">@color/textColorPrimary</item>
+	</style>
+		<style name="AppMarginCompat">
+			<item name="android:layout_marginLeft">5dip</item>
+			<item name="android:layout_marginTop">5dip</item>
+			<item name="android:layout_marginRight">5dip</item>
+			<item name="android:layout_marginBottom">5dip</item>
+			<item name="android:padding">5dip</item>
+	</style>
+	<style name="ButtonCompat" parent="AppMarginCompat">
+		<item name="android:background">@drawable/rgd_button_bg</item>
+		<item name="android:elevation">5dip</item>
+	</style>
+	<style name="DialogCompat" parent="@android:style/Theme.Material.Dialog">
+	</style>
+	<style name="SeekBarCompat" parent="AppMarginCompat">
+		<item name="android:progressDrawable">@drawable/rgd_seekbar_bar</item>
+		<item name="android:thumbTint">@color/colorAccent</item>
+		<item name="android:minHeight">0dp</item>
+		<item name="android:minWidth">50dp</item>
+	</style>
+	<style name="TextViewCompat" parent="AppMarginCompat">
+		<item name="android:textSize">15dip</item>
+	</style>
+	<style name="backgroundItemCompat" parent="AppMarginCompat">
+		<item name="android:background">@drawable/rgd_bg_rounded</item>
+	</style>
+	<style name="EditTextCompat" parent="TextViewCompat">
+		<item name="android:background">@drawable/rgd_bg_search</item>
+		<item name="android:paddingTop">20dp</item>
+		<item name="android:paddingBottom">20dp</item>
+	</style>
+</resources>
