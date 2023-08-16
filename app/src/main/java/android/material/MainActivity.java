@@ -1,7 +1,6 @@
 package android.material;
 
 import android.*;
-import android.R;
 import android.app.*;
 import android.content.*;
 import android.os.*;
