@@ -28,23 +28,6 @@ public class MainActivity extends Activity
 		ab.setTitle("Material You LITE");
 		ab.setMessage("Material you Lite is a style based in Material you of [Google LLC].\nyou can find the source code in my github. \n \nCreate By: Retrogisus");
 		ab.show();
-
-		//Checkbox for Change THEME (No finished)
-
-		CheckBox cb = findViewById(R.id.themes);
-		cb.setOnCheckedChangeListener(new CheckBox.OnCheckedChangeListener() {
-
-				@Override
-				public void onCheckedChanged(CompoundButton p1, boolean p2){
-				if (p2) {
-				changeThemeBase(false);
-					}else{
-						changeThemeBase(true);
-					}
-				}		
-			});
-
-		//SeekBar change Accent and ColorPrimary
 	}
 
 public void changeThemeBase (Boolean isLight) {
